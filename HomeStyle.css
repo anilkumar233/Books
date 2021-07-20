@@ -1,0 +1,5 @@
+body {
+    background: url(book1.jfif) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
