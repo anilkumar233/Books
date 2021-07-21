@@ -1,0 +1,98 @@
+<html>
+    <head>
+<style>
+    body{
+        background-image: url(images/login.jfif);
+        background-size: cover;
+    }
+    
+     
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+    }
+  
+     
+    button {
+        background-color: Green;
+        color: white;
+        padding: 15px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+     
+    .cancelbtn {
+        padding: 15px 20px;
+        background-color: #FF2E00;
+    }
+    
+     
+    .cancelbtn,
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    a:hover{
+        color:rgb(27, 37, 16);
+    }
+     
+    .container {
+        padding: 5px;
+        margin: 14px;
+    }
+   .age{
+  margin-top: 5px;
+    padding:10px;
+   }
+     #gender,#rememberMe{
+         margin-top: 25px;
+     }
+   
+    
+     
+</style>
+ </head>
+
+<body>
+ 
+    <h2>Signup Form</h2>
+  
+    <form style="border:0px solid #ccc">
+        <div class="container">
+            <input type="text" placeholder="Enter Email"  required>
+            <input type="password" placeholder="Enter Password" pattern=[a-zA-Z] required>
+            <input type="password" placeholder="confirm Password " required>
+            <strong id="gender" required>Gender</strong>
+            <input type="radio" >Male
+            <input type="radio" >FeMale
+            <input type="radio" >Others <br>
+
+            <strong class="age" required>Age</strong>
+            <input type="radio" >0-18
+            <input type="radio" >18-30
+            <input type="radio" >above 30 <br>
+
+            <input id="rememberMe" type="checkbox" > Remember me
+            <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+ 
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn"><a href=HomePage.html> Sign Up</a> </button>
+            </div>
+        </div>
+    </form>
+ 
+</body>
+ 
+</html>
